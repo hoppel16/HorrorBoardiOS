@@ -9,64 +9,29 @@
 /* Begin PBXBuildFile section */
 		2B4FA8C125475D5100472DCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4FA8C025475D5100472DCF /* AppDelegate.swift */; };
 		2B4FA8C325475D5100472DCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4FA8C225475D5100472DCF /* SceneDelegate.swift */; };
-		2B4FA8C525475D5100472DCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4FA8C425475D5100472DCF /* ViewController.swift */; };
 		2B4FA8C825475D5100472DCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4FA8C625475D5100472DCF /* Main.storyboard */; };
 		2B4FA8CA25475D5200472DCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B4FA8C925475D5200472DCF /* Assets.xcassets */; };
 		2B4FA8CD25475D5200472DCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4FA8CB25475D5200472DCF /* LaunchScreen.storyboard */; };
-		2B4FA8D825475D5200472DCF /* HorrorBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4FA8D725475D5200472DCF /* HorrorBoardTests.swift */; };
-		2B4FA8E325475D5200472DCF /* HorrorBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4FA8E225475D5200472DCF /* HorrorBoardUITests.swift */; };
+		2B4FA8FC25475E6200472DCF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4FA8FB25475E6200472DCF /* MainViewController.swift */; };
+		2B4FA90E2547642100472DCF /* ParticlePeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4FA90D2547642100472DCF /* ParticlePeripheral.swift */; };
+		2B4FA91425478A5300472DCF /* AlertHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4FA91325478A5300472DCF /* AlertHelpers.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2B4FA8D425475D5200472DCF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2B4FA8B525475D5100472DCF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2B4FA8BC25475D5100472DCF;
-			remoteInfo = HorrorBoard;
-		};
-		2B4FA8DF25475D5200472DCF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2B4FA8B525475D5100472DCF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2B4FA8BC25475D5100472DCF;
-			remoteInfo = HorrorBoard;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2B4FA8BD25475D5100472DCF /* HorrorBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorrorBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4FA8C025475D5100472DCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B4FA8C225475D5100472DCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2B4FA8C425475D5100472DCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2B4FA8C725475D5100472DCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B4FA8C925475D5200472DCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B4FA8CC25475D5200472DCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B4FA8CE25475D5200472DCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B4FA8D325475D5200472DCF /* HorrorBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorrorBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B4FA8D725475D5200472DCF /* HorrorBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorrorBoardTests.swift; sourceTree = "<group>"; };
-		2B4FA8D925475D5200472DCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B4FA8DE25475D5200472DCF /* HorrorBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorrorBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B4FA8E225475D5200472DCF /* HorrorBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorrorBoardUITests.swift; sourceTree = "<group>"; };
-		2B4FA8E425475D5200472DCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4FA8FB25475E6200472DCF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2B4FA90D2547642100472DCF /* ParticlePeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticlePeripheral.swift; sourceTree = "<group>"; };
+		2B4FA91325478A5300472DCF /* AlertHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2B4FA8BA25475D5100472DCF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B4FA8D025475D5200472DCF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B4FA8DB25475D5200472DCF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				2B4FA8BF25475D5100472DCF /* HorrorBoard */,
-				2B4FA8D625475D5200472DCF /* HorrorBoardTests */,
-				2B4FA8E125475D5200472DCF /* HorrorBoardUITests */,
 				2B4FA8BE25475D5100472DCF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				2B4FA8BD25475D5100472DCF /* HorrorBoard.app */,
-				2B4FA8D325475D5200472DCF /* HorrorBoardTests.xctest */,
-				2B4FA8DE25475D5200472DCF /* HorrorBoardUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,33 +60,41 @@
 		2B4FA8BF25475D5100472DCF /* HorrorBoard */ = {
 			isa = PBXGroup;
 			children = (
-				2B4FA8C025475D5100472DCF /* AppDelegate.swift */,
-				2B4FA8C225475D5100472DCF /* SceneDelegate.swift */,
-				2B4FA8C425475D5100472DCF /* ViewController.swift */,
-				2B4FA8C625475D5100472DCF /* Main.storyboard */,
-				2B4FA8C925475D5200472DCF /* Assets.xcassets */,
-				2B4FA8CB25475D5200472DCF /* LaunchScreen.storyboard */,
-				2B4FA8CE25475D5200472DCF /* Info.plist */,
+				2B4FA8FB25475E6200472DCF /* MainViewController.swift */,
+				2B4FA90D2547642100472DCF /* ParticlePeripheral.swift */,
+				2B4FA91325478A5300472DCF /* AlertHelpers.swift */,
+				2B4FA8F425475DDC00472DCF /* Storyboards */,
+				2B4FA8F325475DC000472DCF /* AppLifecycle */,
+				2B4FA90025475E6B00472DCF /* Assets */,
 			);
 			path = HorrorBoard;
 			sourceTree = "<group>";
 		};
-		2B4FA8D625475D5200472DCF /* HorrorBoardTests */ = {
+		2B4FA8F325475DC000472DCF /* AppLifecycle */ = {
 			isa = PBXGroup;
 			children = (
-				2B4FA8D725475D5200472DCF /* HorrorBoardTests.swift */,
-				2B4FA8D925475D5200472DCF /* Info.plist */,
+				2B4FA8C025475D5100472DCF /* AppDelegate.swift */,
+				2B4FA8C225475D5100472DCF /* SceneDelegate.swift */,
 			);
-			path = HorrorBoardTests;
+			path = AppLifecycle;
 			sourceTree = "<group>";
 		};
-		2B4FA8E125475D5200472DCF /* HorrorBoardUITests */ = {
+		2B4FA8F425475DDC00472DCF /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				2B4FA8E225475D5200472DCF /* HorrorBoardUITests.swift */,
-				2B4FA8E425475D5200472DCF /* Info.plist */,
+				2B4FA8C625475D5100472DCF /* Main.storyboard */,
+				2B4FA8CB25475D5200472DCF /* LaunchScreen.storyboard */,
 			);
-			path = HorrorBoardUITests;
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2B4FA90025475E6B00472DCF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2B4FA8C925475D5200472DCF /* Assets.xcassets */,
+				2B4FA8CE25475D5200472DCF /* Info.plist */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,42 +117,6 @@
 			productReference = 2B4FA8BD25475D5100472DCF /* HorrorBoard.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2B4FA8D225475D5200472DCF /* HorrorBoardTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2B4FA8EA25475D5200472DCF /* Build configuration list for PBXNativeTarget "HorrorBoardTests" */;
-			buildPhases = (
-				2B4FA8CF25475D5200472DCF /* Sources */,
-				2B4FA8D025475D5200472DCF /* Frameworks */,
-				2B4FA8D125475D5200472DCF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2B4FA8D525475D5200472DCF /* PBXTargetDependency */,
-			);
-			name = HorrorBoardTests;
-			productName = HorrorBoardTests;
-			productReference = 2B4FA8D325475D5200472DCF /* HorrorBoardTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2B4FA8DD25475D5200472DCF /* HorrorBoardUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2B4FA8ED25475D5200472DCF /* Build configuration list for PBXNativeTarget "HorrorBoardUITests" */;
-			buildPhases = (
-				2B4FA8DA25475D5200472DCF /* Sources */,
-				2B4FA8DB25475D5200472DCF /* Frameworks */,
-				2B4FA8DC25475D5200472DCF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2B4FA8E025475D5200472DCF /* PBXTargetDependency */,
-			);
-			name = HorrorBoardUITests;
-			productName = HorrorBoardUITests;
-			productReference = 2B4FA8DE25475D5200472DCF /* HorrorBoardUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +128,6 @@
 				TargetAttributes = {
 					2B4FA8BC25475D5100472DCF = {
 						CreatedOnToolsVersion = 12.1;
-					};
-					2B4FA8D225475D5200472DCF = {
-						CreatedOnToolsVersion = 12.1;
-						TestTargetID = 2B4FA8BC25475D5100472DCF;
-					};
-					2B4FA8DD25475D5200472DCF = {
-						CreatedOnToolsVersion = 12.1;
-						TestTargetID = 2B4FA8BC25475D5100472DCF;
 					};
 				};
 			};
@@ -220,8 +145,6 @@
 			projectRoot = "";
 			targets = (
 				2B4FA8BC25475D5100472DCF /* HorrorBoard */,
-				2B4FA8D225475D5200472DCF /* HorrorBoardTests */,
-				2B4FA8DD25475D5200472DCF /* HorrorBoardUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,20 +160,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B4FA8D125475D5200472DCF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B4FA8DC25475D5200472DCF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,42 +167,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B4FA8C525475D5100472DCF /* ViewController.swift in Sources */,
+				2B4FA91425478A5300472DCF /* AlertHelpers.swift in Sources */,
+				2B4FA8FC25475E6200472DCF /* MainViewController.swift in Sources */,
 				2B4FA8C125475D5100472DCF /* AppDelegate.swift in Sources */,
 				2B4FA8C325475D5100472DCF /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B4FA8CF25475D5200472DCF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2B4FA8D825475D5200472DCF /* HorrorBoardTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B4FA8DA25475D5200472DCF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2B4FA8E325475D5200472DCF /* HorrorBoardUITests.swift in Sources */,
+				2B4FA90E2547642100472DCF /* ParticlePeripheral.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2B4FA8D525475D5200472DCF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2B4FA8BC25475D5100472DCF /* HorrorBoard */;
-			targetProxy = 2B4FA8D425475D5200472DCF /* PBXContainerItemProxy */;
-		};
-		2B4FA8E025475D5200472DCF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2B4FA8BC25475D5100472DCF /* HorrorBoard */;
-			targetProxy = 2B4FA8DF25475D5200472DCF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2B4FA8C625475D5100472DCF /* Main.storyboard */ = {
@@ -366,7 +248,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -438,7 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66NN5GCJS7;
-				INFOPLIST_FILE = HorrorBoard/Info.plist;
+				INFOPLIST_FILE = HorrorBoard/Assets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66NN5GCJS7;
-				INFOPLIST_FILE = HorrorBoard/Info.plist;
+				INFOPLIST_FILE = HorrorBoard/Assets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,90 +348,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		2B4FA8EB25475D5200472DCF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 66NN5GCJS7;
-				INFOPLIST_FILE = HorrorBoardTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hunteroppel.HorrorBoardTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HorrorBoard.app/HorrorBoard";
-			};
-			name = Debug;
-		};
-		2B4FA8EC25475D5200472DCF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 66NN5GCJS7;
-				INFOPLIST_FILE = HorrorBoardTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hunteroppel.HorrorBoardTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HorrorBoard.app/HorrorBoard";
-			};
-			name = Release;
-		};
-		2B4FA8EE25475D5200472DCF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 66NN5GCJS7;
-				INFOPLIST_FILE = HorrorBoardUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hunteroppel.HorrorBoardUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = HorrorBoard;
-			};
-			name = Debug;
-		};
-		2B4FA8EF25475D5200472DCF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 66NN5GCJS7;
-				INFOPLIST_FILE = HorrorBoardUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hunteroppel.HorrorBoardUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = HorrorBoard;
 			};
 			name = Release;
 		};
@@ -570,24 +368,6 @@
 			buildConfigurations = (
 				2B4FA8E825475D5200472DCF /* Debug */,
 				2B4FA8E925475D5200472DCF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2B4FA8EA25475D5200472DCF /* Build configuration list for PBXNativeTarget "HorrorBoardTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2B4FA8EB25475D5200472DCF /* Debug */,
-				2B4FA8EC25475D5200472DCF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2B4FA8ED25475D5200472DCF /* Build configuration list for PBXNativeTarget "HorrorBoardUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2B4FA8EE25475D5200472DCF /* Debug */,
-				2B4FA8EF25475D5200472DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
